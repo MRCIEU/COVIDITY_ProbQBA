@@ -914,7 +914,7 @@ write_csv(res_NARMICE, ".\\Results\\results_NARMICE_Full.csv")
     end - start
 
     ## Save these results
-    write_csv(data.frame(res$samples[[1]]), ".\\Results\\SM_Full_results_allIterations.csv")
+    write_csv(data.frame(res$samples[[1]]), ".\\Results\\BayesianSM_Full_results_allIterations.csv")
 
     ## Summarise and store these results
     res_SM <- NULL
@@ -926,6 +926,6 @@ write_csv(res_NARMICE, ".\\Results\\results_NARMICE_Full.csv")
 
 
     # Now export results to CSV
-    write_csv(res_SM, ".\\Results\\results_SM_Full.csv")
+    write_csv(res_SM, ".\\Results\\results_BayesianSM_Full.csv")
 
 
