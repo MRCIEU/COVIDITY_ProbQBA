@@ -883,7 +883,7 @@ write_csv(res_NARMICE, ".\\Results\\results_NARMICE_Full.csv")
         psi_diabetes ~ dnorm(0.00000E+00, 0.01)
         psi_hyperten ~ dnorm(0.00000E+00, 0.01)
     }
-    ", con="JAGSmodel.txt")
+    ", con="/FILEPATH/JAGSmodel.txt")
 
     ## Set-up prior
     prior_mean <- -mean_csp
@@ -906,7 +906,7 @@ write_csv(res_NARMICE, ".\\Results\\results_NARMICE_Full.csv")
     ##### Run JAGS with burn-ins #####
     ## And time how long this takes
     start <- Sys.time()
-    res <- jags(data=dat_SM, inits=JAGSInits, parameters.to.save=Params, model.file="JAGSModel.txt", n.chains=1, n.iter=SM_numiter, n.burnin=SM_numburnin)
+    res <- jags(data=dat_SM, inits=JAGSInits, parameters.to.save=Params, model.file="/FILEPATH/JAGSModel.txt", n.chains=1, n.iter=SM_numiter, n.burnin=SM_numburnin)
 
     # Calculate time taken
     end <- Sys.time()
