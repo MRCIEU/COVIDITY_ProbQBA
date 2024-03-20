@@ -802,6 +802,7 @@ write_csv(simsum_table, file = "/FILEPATH/simsum_results.csv")
 
 # for the ith simulated data set: i=1,..., 1000
 
+# Load the 'jagsUI' package
 library(jagsUI)
 
 ## This will differ, depending on whether the selection model or pattern-mixture model simulations are used, and whether the causal or null datasets (For the association between BMI and COVID testing) are used
