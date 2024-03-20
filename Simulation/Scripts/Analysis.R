@@ -911,7 +911,7 @@ model
     psi_hyperten ~ dnorm(0.00000E+00, 0.01)
 }
 
-", con="JAGSModel.txt")
+", con="/FILEPATH/JAGSModel.txt")
 
 
     
@@ -935,7 +935,7 @@ SM_numiter <- 50000
 start <- Sys.time()
 
 
-    res <- jags(data=data_SM, inits=JAGSInits, parameters.to.save=Params, model.file="JAGSModel.txt", n.chains=1, n.iter=SM_numiter, n.burnin=SM_numburnin)
+    res <- jags(data=data_SM, inits=JAGSInits, parameters.to.save=Params, model.file="/FILEPATH/JAGSModel.txt", n.chains=1, n.iter=SM_numiter, n.burnin=SM_numburnin)
 
 
 # Calculate time taken
