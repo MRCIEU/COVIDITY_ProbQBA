@@ -911,7 +911,7 @@ model
     psi_hyperten ~ dnorm(0.00000E+00, 0.01)
 }
 
-", con="/FILEPATH/JAGSModel.txt")
+", con="/FILEPATH/BayesianSM/JAGSModel.txt")
 
 
     
