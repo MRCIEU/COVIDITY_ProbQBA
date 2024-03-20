@@ -952,4 +952,4 @@ colnames(res_SM)[(-6:0+ncol(res_SM))] <- paste0(param, "_", colnames(res_SM)[(-6
 }
 
 # Now export results to CSV
-write_csv(res_SM, paste0("/FILEPATH/SMresults_", i, ".csv"))
+write_csv(res_SM, paste0("/FILEPATH/BayesianSM/SMresults_", i, ".csv"))
