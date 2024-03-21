@@ -11,6 +11,24 @@ Note also that these scripts were predominantly run on the University of Bristol
 suite (https://www.bristol.ac.uk/acrc/high-performance-computing/). The shell scripts to run these jobs on this
 system have not been included here.
 
+### SIMULATE DATASETS OF 4 TYPES: 
+	# (I) SELECTION MODEL FACTORISATION AND NULL EXPOSURE EFFECT, 
+        # (II) SELECTION MODEL FACTORISATION AND NOT NULL EXPOSURE EFFECT, 
+	# (III) PATTERN-MIXTURE MODEL FACTORISATION AND NOT NULL EXPOSURE EFFECT
+	# (IV)  PATTERN-MIXTURE MODEL FACTORISATION AND NULL EXPOSURE EFFECT
+	"Do files\Master do file for simulating datasets.do"
+		# (I AND II)
+		"Do files\SM - sets true values of data generation models.do"
+		"Do files\SM - generates simulated datasets.do"
+		"Do files\SM - simulates a dataset.do"
+		# (III AND IV)
+		"Do files\PMM - sets true values of data generation models.do"
+		"Do files\PMM - generates simulated datasets.do"
+		"Do files\PMM - simulates a dataset.do"
+
+### GENERATES VERY LARGE DATASET TO DETERMINE "TRUE" EXPOSURE EFFECT FOR PMM DATA MODEL
+	"Do files\PMM - generates large dataset for true exposure effect value.do"
+ 
 Simulation code:
  - XXX.do - Stata code to generate the simulated datasets
  - NARFCS_Simulations.r - R code to perform the NARFCS quantitative bias analysis, along with other methods 
