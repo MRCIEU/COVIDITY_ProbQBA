@@ -12,8 +12,11 @@ Note also that these scripts were predominantly run on the University of Bristol
 SIMULATE DATASETS OF 4 TYPES:
 
 (I) selection model factorisation and not null exposure effect,
+
 (II) selection model factorisation and null exposure effect,
+
 (III) pattern-mixture model factorisation and not null exposure effect,
+
 (IV) pattern-mixture model factorisation and null exposure effect,
 
 - Master do file for simulating datasets.do
