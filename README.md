@@ -14,7 +14,8 @@ system have not been included here.
 
 ### Simulation study
 
-#### SIMULATE DATASETS OF 4 TYPES: 
+#### Data simulation
+SIMULATE DATASETS OF 4 TYPES: 
 - (I) SELECTION MODEL FACTORISATION AND NULL EXPOSURE EFFECT, 
 - (II) SELECTION MODEL FACTORISATION AND NOT NULL EXPOSURE EFFECT, 
 - (III) PATTERN-MIXTURE MODEL FACTORISATION AND NOT NULL EXPOSURE EFFECT
@@ -29,17 +30,19 @@ system have not been included here.
 		"Do files\PMM - generates simulated datasets.do"
 		"Do files\PMM - simulates a dataset.do"
 
-#### GENERATES VERY LARGE DATASET TO DETERMINE "TRUE" EXPOSURE EFFECT FOR PMM DATA MODEL
+GENERATES VERY LARGE DATASET TO DETERMINE "TRUE" EXPOSURE EFFECT FOR PMM DATA MODEL
 - "Do files\PMM - generates large dataset for true exposure effect value.do"
 
-#### Analyses
+### Analyses
  - NARFCS_Simulations.r - R code to perform the NARFCS quantitative bias analysis, along with other methods 
  (analysis on the full dataset [i.e., no missing data], complete-case analysis, inverse probability weighting 
  [stabilised and unstabilised], and standard multiple imputation)
  - NARFCS_Simulations_Stata.do - Stata code to perform the NARFCS quantitative bias analysis, along with the
  other methods described above
  - BayesSM_Simulations.r - R code to perform the Bayesian selection bias quantitative bias analysis using JAGS
-   
+
+#### Result processing
+
 ### UK Biobank study
 
 
