@@ -1,7 +1,7 @@
 ## COVIDITY Project - Probabalistic bias analysis for selection bias in COVID-19 testing
 
 This repository contains the scripts needed to perform the probabalistic bias analyses for selection bias due to missing data reported in the associated paper ("Accounting for bias due to outcome data missing not at random: comparison and illustration of two approaches to probabilistic bias analysis: a simulation study"). This includes scripts to generate the simulated datasets 
-and then analyse these simulations, plus scripts applying these methods to UK BioBank data.
+and then analyse these simulations, plus scripts applying these methods to UK Biobank data.
 
 Code for the Not-At-Random Fully Conditional Specification (NARFCS) method is available in both R (.r) and Stata (.do), while code for the Bayesian selection model method is only available in R.
 
@@ -38,7 +38,7 @@ GENERATES VERY LARGE DATASET TO DETERMINE "TRUE" EXPOSURE EFFECT FOR PMM DATA MO
 - spreadsheet files list generated random seeds (*.csv)
 
 ### UK Biobank study
- - Script to processing the UK BioBank data ready for analysis (UKBB_Processing.r)
- - Scripts to perform the complete-cases analyses, multiple imputation, inverse-probability weighting, coding all participants without COVID testing data as 'not infected' and NARFCS analyses on the UK BioBank data, in both R (NARFCS_UKB.r) and Stata (NARFCS_UKB_Stata.do)
+ - Script to processing the UK Biobank data ready for analysis (UKBB_Processing.r)
+ - Scripts to perform the complete-cases analyses, multiple imputation, inverse-probability weighting, coding all participants without COVID testing data as 'not infected' and NARFCS analyses on the UK Biobank data, in both R (NARFCS_UKB.r) and Stata (NARFCS_UKB_Stata.do)
  - NARFCS_UKB.r - R code to perform the NARFCS quantitative bias analysis, along with other methods (complete-case analysis, inverse probability weighting [stabilised and unstabilised], standard multiple imputation, and coding all participants without COVID testing data as 'not infected')
- - R code to perform the Bayesian selection bias quantitative bias analysis using JAGS on the UK BioBank data (BayesSM_UKB.r)
+ - R code to perform the Bayesian selection bias quantitative bias analysis using JAGS on the UK Biobank data (BayesSM_UKB.r)
