@@ -31,6 +31,8 @@ system have not been included here.
 
 #### GENERATES VERY LARGE DATASET TO DETERMINE "TRUE" EXPOSURE EFFECT FOR PMM DATA MODEL
 - "Do files\PMM - generates large dataset for true exposure effect value.do"
+
+#### Analyses
  - NARFCS_Simulations.r - R code to perform the NARFCS quantitative bias analysis, along with other methods 
  (analysis on the full dataset [i.e., no missing data], complete-case analysis, inverse probability weighting 
  [stabilised and unstabilised], and standard multiple imputation)
@@ -43,7 +45,9 @@ system have not been included here.
 
 COVIDITY Project - Probabalistic bias analysis for selection bias in COVID-19 testing
 
+#### Data cleaning
 
+#### Analyses
  - NARFCS_UKB.r - R code to perform the NARFCS quantitative bias analysis, along with other methods 
  (complete-case analysis, inverse probability weighting [stabilised and unstabilised], standard multiple 
  imputation, and coding all participants without COVID testing data as 'not infected')
