@@ -9,11 +9,12 @@ Note also that these scripts were predominantly run on the University of Bristol
 ### Simulation study
 
 #### Data simulation
-SIMULATE DATASETS OF 4 TYPES: 
-(I) SELECTION MODEL FACTORISATION AND NULL EXPOSURE EFFECT, 
-(II) SELECTION MODEL FACTORISATION AND NOT NULL EXPOSURE EFFECT, 
-(III) PATTERN-MIXTURE MODEL FACTORISATION AND NOT NULL EXPOSURE EFFECT
-(IV)  PATTERN-MIXTURE MODEL FACTORISATION AND NULL EXPOSURE EFFECT
+SIMULATE DATASETS OF 4 TYPES:
+
+(I) selection model factorisation and not null exposure effect,
+(II) selection model factorisation and null exposure effect,
+(III) pattern-mixture model factorisation and not null exposure effect,
+(IV) pattern-mixture model factorisation and null exposure effect,
 
 - Master do file for simulating datasets.do
 - (I AND II)
