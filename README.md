@@ -18,10 +18,10 @@ SIMULATE DATASETS OF 4 TYPES:
 - (IV)  PATTERN-MIXTURE MODEL FACTORISATION AND NULL EXPOSURE EFFECT
 
 - Master do file for simulating datasets.do
-		# (I AND II)
-- SM - sets true values of data generation models.do
-- SM - generates simulated datasets.do
-- SM - simulates a dataset.do
+- (I AND II)
+	- SM - sets true values of data generation models.do
+	- SM - generates simulated datasets.do
+	- SM - simulates a dataset.do
 		# (III AND IV)
 - PMM - sets true values of data generation models.do
 - PMM - generates simulated datasets.do
