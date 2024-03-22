@@ -17,7 +17,7 @@ SIMULATE DATASETS OF 4 TYPES:
 
 (III) pattern-mixture model factorisation and not null exposure effect,
 
-(IV) pattern-mixture model factorisation and null exposure effect,
+-(IV) pattern-mixture model factorisation and null exposure effect,
 
 - Master do file for simulating datasets.do
 - (I AND II)
