@@ -1,4 +1,5 @@
- COVIDITY Project - Probabalistic bias analysis for selection bias in COVID-19 testing
+## Accounting for bias due to outcome data missing not at random: comparison and illustration of two approaches to probabilistic bias analysis: a simulation study
+
 
 This repository contains the scripts needed to perform the probabalistic bias analyses for selection bias
 due to missing data reported in the associated paper. This includes scripts to generate the simulated datasets 
@@ -11,11 +12,13 @@ Note also that these scripts were predominantly run on the University of Bristol
 suite (https://www.bristol.ac.uk/acrc/high-performance-computing/). The shell scripts to run these jobs on this
 system have not been included here.
 
-### SIMULATE DATASETS OF 4 TYPES: 
-	# (I) SELECTION MODEL FACTORISATION AND NULL EXPOSURE EFFECT, 
-        # (II) SELECTION MODEL FACTORISATION AND NOT NULL EXPOSURE EFFECT, 
-	# (III) PATTERN-MIXTURE MODEL FACTORISATION AND NOT NULL EXPOSURE EFFECT
-	# (IV)  PATTERN-MIXTURE MODEL FACTORISATION AND NULL EXPOSURE EFFECT
+### Simulation study
+
+#### SIMULATE DATASETS OF 4 TYPES: 
+- (I) SELECTION MODEL FACTORISATION AND NULL EXPOSURE EFFECT, 
+- (II) SELECTION MODEL FACTORISATION AND NOT NULL EXPOSURE EFFECT, 
+- (III) PATTERN-MIXTURE MODEL FACTORISATION AND NOT NULL EXPOSURE EFFECT
+- (IV)  PATTERN-MIXTURE MODEL FACTORISATION AND NULL EXPOSURE EFFECT
 	"Do files\Master do file for simulating datasets.do"
 		# (I AND II)
 		"Do files\SM - sets true values of data generation models.do"
@@ -26,19 +29,21 @@ system have not been included here.
 		"Do files\PMM - generates simulated datasets.do"
 		"Do files\PMM - simulates a dataset.do"
 
-### GENERATES VERY LARGE DATASET TO DETERMINE "TRUE" EXPOSURE EFFECT FOR PMM DATA MODEL
-	"Do files\PMM - generates large dataset for true exposure effect value.do"
- 
-Simulation code:
- - XXX.do - Stata code to generate the simulated datasets
+#### GENERATES VERY LARGE DATASET TO DETERMINE "TRUE" EXPOSURE EFFECT FOR PMM DATA MODEL
+- "Do files\PMM - generates large dataset for true exposure effect value.do"
  - NARFCS_Simulations.r - R code to perform the NARFCS quantitative bias analysis, along with other methods 
  (analysis on the full dataset [i.e., no missing data], complete-case analysis, inverse probability weighting 
  [stabilised and unstabilised], and standard multiple imputation)
  - NARFCS_Simulations_Stata.do - Stata code to perform the NARFCS quantitative bias analysis, along with the
  other methods described above
  - BayesSM_Simulations.r - R code to perform the Bayesian selection bias quantitative bias analysis using JAGS
- 
-UK BioBank code:
+   
+### UK Biobank study
+
+
+COVIDITY Project - Probabalistic bias analysis for selection bias in COVID-19 testing
+
+
  - NARFCS_UKB.r - R code to perform the NARFCS quantitative bias analysis, along with other methods 
  (complete-case analysis, inverse probability weighting [stabilised and unstabilised], standard multiple 
  imputation, and coding all participants without COVID testing data as 'not infected')
