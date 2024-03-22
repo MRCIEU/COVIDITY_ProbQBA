@@ -36,7 +36,7 @@ Note also that these scripts were predominantly run on the University of Bristol
 
 ##### Bayesian SM
 - "BayesSM_Simulations.r" contains R code to perform the Bayesian selection model using JAGS on the simulated datasets
-- Spreadsheet .csv files list generated random seeds
+- Spreadsheet .csv files list generated random seeds used for each of the analyses
 
 ### UK Biobank study
  - "UKBB_Processing.r" processes the UK Biobank data ready for analysis
