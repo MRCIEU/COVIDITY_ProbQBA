@@ -17,19 +17,18 @@ SIMULATE DATASETS OF 4 TYPES:
 - (III) PATTERN-MIXTURE MODEL FACTORISATION AND NOT NULL EXPOSURE EFFECT
 - (IV)  PATTERN-MIXTURE MODEL FACTORISATION AND NULL EXPOSURE EFFECT
 
-- 
-	"Do files\Master do file for simulating datasets.do"
+- Master do file for simulating datasets.do
 		# (I AND II)
-		"Do files\SM - sets true values of data generation models.do"
-		"Do files\SM - generates simulated datasets.do"
-		"Do files\SM - simulates a dataset.do"
+- SM - sets true values of data generation models.do
+- SM - generates simulated datasets.do
+- SM - simulates a dataset.do
 		# (III AND IV)
-		"Do files\PMM - sets true values of data generation models.do"
-		"Do files\PMM - generates simulated datasets.do"
-		"Do files\PMM - simulates a dataset.do"
+- PMM - sets true values of data generation models.do
+- PMM - generates simulated datasets.do
+- PMM - simulates a dataset.do
 
 GENERATES VERY LARGE DATASET TO DETERMINE "TRUE" EXPOSURE EFFECT FOR PMM DATA MODEL
-- "Do files\PMM - generates large dataset for true exposure effect value.do"
+- PMM - generates large dataset for true exposure effect value.do
 
 #### Analyses and results processing
  - NARFCS_Simulations.r - R code to perform the NARFCS quantitative bias analysis, along with other methods 
