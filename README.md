@@ -1,4 +1,4 @@
-## COVIDITY Project - Probabalistic bias analysis for selection bias in COVID-19 testing
+ COVIDITY Project - Probabalistic bias analysis for selection bias in COVID-19 testing
 
 This repository contains the scripts needed to perform the probabalistic bias analyses for selection bias
 due to missing data reported in the associated paper. This includes scripts to generate the simulated datasets 
