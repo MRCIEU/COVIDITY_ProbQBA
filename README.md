@@ -31,7 +31,7 @@ Note also that these scripts were predominantly run on the University of Bristol
 - "PMM - generates large dataset for true exposure effect value.do" generates very large dataset to determine "TRUE" exposure effect for PMM data model
 
 #### Data analysis
-- Stata .do scripts to generate random seeds for each of the analyses in both the SM DGM ("RandomSeeds.do") and PMM DGM ("RandomSeeds_PMM.do")
+- Stata .do scripts to generate random seeds for each of the analyses in both the SM data generating model ("RandomSeeds.do") and PMM data generating model ("RandomSeeds_PMM.do")
 - Scripts to perform the complete-cases analyses, multiple imputation, inverse probability weighting and NARFCS analyses on the simulated datasets, and then combine the simulated results together, in both R ("NARFCS_Simulations.r") and Stata ("NARFCS_Simulations_Stata.do")
 
 ##### Bayesian SM
