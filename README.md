@@ -33,7 +33,7 @@ SIMULATE DATASETS OF 4 TYPES:
 GENERATES VERY LARGE DATASET TO DETERMINE "TRUE" EXPOSURE EFFECT FOR PMM DATA MODEL
 - "Do files\PMM - generates large dataset for true exposure effect value.do"
 
-### Analyses
+### Analyses and results processing
  - NARFCS_Simulations.r - R code to perform the NARFCS quantitative bias analysis, along with other methods 
  (analysis on the full dataset [i.e., no missing data], complete-case analysis, inverse probability weighting 
  [stabilised and unstabilised], and standard multiple imputation)
@@ -41,7 +41,6 @@ GENERATES VERY LARGE DATASET TO DETERMINE "TRUE" EXPOSURE EFFECT FOR PMM DATA MO
  other methods described above
  - BayesSM_Simulations.r - R code to perform the Bayesian selection bias quantitative bias analysis using JAGS
 
-#### Result processing
 
 ### UK Biobank study
 
