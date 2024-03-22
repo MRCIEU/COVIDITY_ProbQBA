@@ -9,17 +9,16 @@ Note also that these scripts were predominantly run on the University of Bristol
 ### Simulation study
 
 #### Data simulation
-SIMULATE DATASETS OF 4 TYPES:
+- Master do file for simulating datasets.do simulates datastes of 4 types:
 
-(I) selection model factorisation and not null exposure effect,
+(I) selection model (SM) factorisation and not null exposure effect,
 
 (II) selection model factorisation and null exposure effect,
 
-(III) pattern-mixture model factorisation and not null exposure effect,
+(III) pattern-mixture model (PMM) factorisation and not null exposure effect,
 
--(IV) pattern-mixture model factorisation and null exposure effect,
+(IV) pattern-mixture model factorisation and null exposure effect,
 
-- Master do file for simulating datasets.do
 - (I AND II)
 	- SM - sets true values of data generation models.do
 	- SM - generates simulated datasets.do
@@ -29,8 +28,7 @@ SIMULATE DATASETS OF 4 TYPES:
 	- PMM - generates simulated datasets.do
 	- PMM - simulates a dataset.do
 
-GENERATES VERY LARGE DATASET TO DETERMINE "TRUE" EXPOSURE EFFECT FOR PMM DATA MODEL
-- PMM - generates large dataset for true exposure effect value.do
+- PMM - generates large dataset for true exposure effect value.do generates very large dataset to determine "TRUE" exposure effect for PMM data model
 
 #### Data analysis
 - Stata .do scripts to generate random seeds for each of the analyses in both the SM DGM (RandomSeeds.do) and PMM DGM (RandomSeeds_PMM.do)
