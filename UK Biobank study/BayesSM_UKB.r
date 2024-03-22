@@ -2,6 +2,7 @@
 
 ## Created by Emily Kawabata
 ## R version 4.1.0
+## JAGS version 4.3.0
 
 ## Clear workspace, set working directory and load packages
 rm(list = ls())
