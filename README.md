@@ -22,10 +22,10 @@ SIMULATE DATASETS OF 4 TYPES:
 	- SM - sets true values of data generation models.do
 	- SM - generates simulated datasets.do
 	- SM - simulates a dataset.do
-		# (III AND IV)
-- PMM - sets true values of data generation models.do
-- PMM - generates simulated datasets.do
-- PMM - simulates a dataset.do
+- (III AND IV)
+	- PMM - sets true values of data generation models.do
+	- PMM - generates simulated datasets.do
+	- PMM - simulates a dataset.do
 
 GENERATES VERY LARGE DATASET TO DETERMINE "TRUE" EXPOSURE EFFECT FOR PMM DATA MODEL
 - PMM - generates large dataset for true exposure effect value.do
