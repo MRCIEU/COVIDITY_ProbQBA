@@ -1,4 +1,4 @@
-## COVIDITY Project - Probabalistic bias analysis for selection bias in COVID-19 testing
+## COVIDITY Project - Probabilistic bias analysis for selection bias in COVID-19 testing
 
 This repository contains the scripts needed to perform the main analyses described in the associated paper ("Accounting for bias due to outcome data missing not at random: comparison and illustration of two approaches to probabilistic bias analysis: a simulation study"). This includes scripts to generate the simulated datasets and then analyse these simulations, plus scripts applying these methods to UK Biobank data.
 
@@ -7,6 +7,8 @@ Code for the Not-At-Random Fully Conditional Specification (NARFCS) method is av
 Note also that these scripts were predominantly run on the University of Bristol's High-Performance Computing suite (https://www.bristol.ac.uk/acrc/high-performance-computing/). The shell scripts to run these jobs on this system have not been included here.
 
 ### Simulation study
+
+In this Github repository, the notation used to represent the variables in the simulation study are different from the notation used in the manuscript.
 
 Description | Notation in the manuscript | Notation in the Github repository
 --- | --- | --- 
@@ -17,7 +19,7 @@ Fully observed continuous confounders | Z2 | sdage
 Fully observed confounders | Z3 | degree
 Partially observed confounder | W | smoker
 Fully observed auxiliary variable | A1 | asthma
-Fully obsrrved auxiliary variable | A2 | diabetes
+Fully observed auxiliary variable | A2 | diabetes
 Partially observed auxiliary variable | D | hyperten
 Missing indicator of the outcome | $M^Y$ | itest
 Missing indicator of the exposure | $M^X$ | Rsdbmi
@@ -26,7 +28,7 @@ Missing indicator of the partially observed auxiliary variable | $M^D$ | Rhypert
 
 
 #### Data simulation
-- "Master do file for simulating datasets.do" simulates datastes of 4 types:
+- "Master do file for simulating datasets.do" simulates datasets of 4 types:
 
 (I) selection model (SM) factorisation and not null exposure effect,
 
@@ -57,6 +59,6 @@ Missing indicator of the partially observed auxiliary variable | $M^D$ | Rhypert
 
 ### UK Biobank study
  - "UKBB_Processing.r" processes the UK Biobank data ready for analysis
- - Scripts to perform the complete-cases analyses, multiple imputation, inverse probability weighting, coding all participants without COVID testing data as 'not infected' and NARFCS analyses on the UK Biobank data, in both R ("NARFCS_UKB.r") and Stata ("NARFCS_UKB_Stata.do")
- - "NARFCS_UKB.r" contains R code to perform the NARFCS quantitative bias analysis, along with other methods (complete-case analysis, inverse probability weighting [stabilised and unstabilised], standard multiple imputation, and coding all participants without COVID testing data as 'not infected')
+ - Scripts to perform the complete-cases analyses, multiple imputation, inverse probability weighting, coding all participants without COVID-19 testing data as 'not infected' and NARFCS analyses on the UK Biobank data, in both R ("NARFCS_UKB.r") and Stata ("NARFCS_UKB_Stata.do")
+ - "NARFCS_UKB.r" contains R code to perform the NARFCS quantitative bias analysis, along with other methods (complete-case analysis, inverse probability weighting [stabilised and unstabilised], standard multiple imputation, and coding all participants without COVID-19 testing data as 'not infected')
  - "BayesSM_UKB.r" contains R code to perform the Bayesian selection model using JAGS on the UK Biobank data
