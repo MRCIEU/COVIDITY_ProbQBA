@@ -8,10 +8,9 @@ Note also that these scripts were predominantly run on the University of Bristol
 
 ### Simulation study
 
-Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
-
+Variables | In the manuscript | In the Github repository
+--- | --- | --- 
+Seconds | 301 | 283 
 #### Data simulation
 - "Master do file for simulating datasets.do" simulates datastes of 4 types:
 
