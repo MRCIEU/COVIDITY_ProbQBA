@@ -19,7 +19,11 @@ Partially observed confounder | W | smoker
 Fully observed auxiliary variable | A1 | asthma
 Fully obsrrved auxiliary variable | A2 | diabetes
 Partially observed auxiliary variable | D | hyperten
-Missing indicator of the outcome | $M^y$ | itest
+Missing indicator of the outcome | $M^Y$ | itest
+Missing indicator of the exposure | $M^X$ | Rsdbmi
+Missing indicator of the partially observed confounder | $M^W$ | Rsmoker
+Missing indicator of the partially observed auxiliary variable | $M^D$ | Rhyperten
+
 
 #### Data simulation
 - "Master do file for simulating datasets.do" simulates datastes of 4 types:
