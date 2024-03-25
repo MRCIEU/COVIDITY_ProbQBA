@@ -10,21 +10,21 @@ Note also that these scripts were predominantly run on the University of Bristol
 
 In this Github repository, the notation used to represent the variables in the simulation study are different from the notation used in the manuscript.
 
-Description | Notation in the manuscript | Notation in the Github repository
+Notation in the Github repository | Notation in the manuscript | Description
 --- | --- | --- 
-Partially observed outcome | $Y$ | infected
-Partially observed exposure | $X$ | sdbmi
-Fully observed confounders | Z1 | men
-Fully observed continuous confounders | Z2 | sdage
-Fully observed confounders | Z3 | degree
-Partially observed confounder | W | smoker
-Fully observed auxiliary variable | A1 | asthma
-Fully observed auxiliary variable | A2 | diabetes
-Partially observed auxiliary variable | D | hyperten
-Missing indicator of the outcome | $M^Y$ | itest
-Missing indicator of the exposure | $M^X$ | Rsdbmi
-Missing indicator of the partially observed confounder | $M^W$ | Rsmoker
-Missing indicator of the partially observed auxiliary variable | $M^D$ | Rhyperten
+infected | $Y$ | Partially observed outcome of the substantive analysis of interest
+sdbmi | $X$ | Partially observed exposure of the substantive analysis of interest
+men | $Z_1$ | Fully observed confounders of the outcome-exposure relationship
+sdage | $Z_2$ | Fully observed continuous confounders of the outcome-exposure relationship
+degree | $Z_3$ | Fully observed confounders of the outcome-exposure relationship
+smoker | $W$ | Partially observed confounder of the outcome-exposure relationship
+asthma | $A_1$ | Fully observed auxiliary variable
+diabetes | $A_2$ | Fully observed auxiliary variable
+hyperten | $D$ | Partially observed auxiliary variable
+itest | $M^Y$ | Missing indicator of the outcome
+Rsdbmi | $M^X$ | Missing indicator of the exposure
+Rsmoker | $M^W$ | Missing indicator of the partially observed confounder
+Rhyperten | $M^D$ | Missing indicator of the partially observed auxiliary variable
 
 
 #### Data simulation
