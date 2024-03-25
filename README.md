@@ -11,23 +11,14 @@ Note also that these scripts were predominantly run on the University of Bristol
 Variables | In the manuscript | In the Github repository
 --- | --- | --- 
 Outcome | Y | infected
---- | --- | ---
 Exposure | X | stdbmi
---- | --- | ---
 fully observed Auxiliary variables | A1 | asthma
---- | --- | ---
 fully obsrved auxiliary variable | A2 | diabetes
---- | --- | ---
 fully observed confounders | Z1 | men
---- | --- | ---
 fully observed continuous confounders | Z2 | sdage
---- | --- | ---
 fully observed confounders | Z3 | degree
---- | --- | ---
 partially observed confounder | W | smoker
---- | --- | ---
 partially observed auxiliary | D | hyperten
---- | --- | ---
 fully observed | $M^y$ | itest
 
 #### Data simulation
