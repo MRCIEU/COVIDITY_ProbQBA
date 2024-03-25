@@ -8,18 +8,18 @@ Note also that these scripts were predominantly run on the University of Bristol
 
 ### Simulation study
 
-Variables | In the manuscript | In the Github repository
+Description | Notation in the manuscript | Notation in the Github repository
 --- | --- | --- 
-Outcome | Y | infected
-Exposure | X | stdbmi
-fully observed Auxiliary variables | A1 | asthma
-fully obsrved auxiliary variable | A2 | diabetes
-fully observed confounders | Z1 | men
-fully observed continuous confounders | Z2 | sdage
-fully observed confounders | Z3 | degree
-partially observed confounder | W | smoker
-partially observed auxiliary | D | hyperten
-fully observed | $M^y$ | itest
+Partially observed outcome | $Y$ | infected
+Partially observed exposure | $X$ | sdbmi
+Fully observed confounders | Z1 | men
+Fully observed continuous confounders | Z2 | sdage
+Fully observed confounders | Z3 | degree
+Partially observed confounder | W | smoker
+Fully observed auxiliary variable | A1 | asthma
+Fully obsrrved auxiliary variable | A2 | diabetes
+Partially observed auxiliary variable | D | hyperten
+Missing indicator of the outcome | $M^y$ | itest
 
 #### Data simulation
 - "Master do file for simulating datasets.do" simulates datastes of 4 types:
