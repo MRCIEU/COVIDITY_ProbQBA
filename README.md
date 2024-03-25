@@ -31,12 +31,9 @@ Rhyperten | $M^D$ | Missing indicator of the partially observed auxiliary variab
 - "Master do file for simulating datasets.do" simulates datasets of 4 types:
 
 	- (I) selection model (SM) factorisation and not null exposure effect,
-
-(II) selection model factorisation and null exposure effect,
-
-(III) pattern-mixture model (PMM) factorisation and not null exposure effect,
-
-(IV) pattern-mixture model factorisation and null exposure effect,
+ 	- (II) selection model factorisation and null exposure effect,
+  	- (III) pattern-mixture model (PMM) factorisation and not null exposure effect,
+	- (IV) pattern-mixture model factorisation and null exposure effect,
 
 - (I AND II)
 	- "SM - sets true values of data generation models.do"
